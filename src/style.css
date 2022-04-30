@@ -43,5 +43,6 @@
     cursor: pointer;
   }
  .formtext{
-     font-family: 'Tenor Sans', serif;
+    color: black;
+    font-family: 'Tenor Sans', serif;
  }
