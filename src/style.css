@@ -20,6 +20,17 @@
     width: 50%;
     text-align: center;
 }
+.thankyou{
+    color: #5e17eb;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
 .p1{
     color: black;
     font-family: 'Tenor Sans', serif;
@@ -30,7 +41,7 @@
     width: 50%;
     text-align: center;
 }
-  .button {
+  .contactbutton {
     border: none;
     color: gainsboro;
     background-color: black;
@@ -44,9 +55,29 @@
   }
  .formtext{
     color: black;
+    font-size: 15px;
     font-family: 'Tenor Sans', serif;
  }
-#contact{
+ .login{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+ }
+.contact-form{
     color: black;
     text-align: center;
 }
+.container { 
+    height: 200px;
+    position: relative;
+  }
+  
+.center {
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
