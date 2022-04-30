@@ -48,6 +48,7 @@
  }
  .question{
     color: black;
+    border-radius: 150px;
     font-size: 20px;
     font-family: 'Tenor Sans', serif;
  }
@@ -68,4 +69,8 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+  .matchingq{
+      height: 300px;
+      width: 300px;
   }
