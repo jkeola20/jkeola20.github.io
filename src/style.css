@@ -118,3 +118,72 @@
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+/*matching copy css*/
+.selector- input {
+  position: absolute;
+  z-index: 999;
+}
+.lion {
+  background-image: url(https://howtodrawforkids.com/wp-content/uploads/2017/05/how-to-draw-a-lion-for-kids-1.jpg);
+}
+
+.monkey {
+  background-image: url(https://iheartcraftythings.com/wp-content/uploads/2021/06/MOnkey9.jpg);
+}
+.snake {
+  background-image: url(https://images.clipartlogo.com/files/istock/previews/8382/83824267-snake.jpg);
+}
+
+.bird {
+  background-image: url(https://www.kindpng.com/picc/m/708-7087703_blackbilled-magpie-in-fantasy-colors-bird-drawing-with.png);
+}
+
+.giraffe {
+  background-image: url(https://cdn2.momjunction.com/wp-content/uploads/2019/02/How-To-Draw-A-Giraffe-An-Easy-Step-By-Step-Tutorial.jpg);
+}
+
+.cat {
+  background-image: url(https://image.shutterstock.com/image-vector/cute-cat-260nw-459670561.jpg);
+  }
+
+.dog {
+  background-image: url(https://havycrafts.com/wp-content/uploads/2020/07/How-to-draw-a-cute-dog_feature.jpg);
+}
+
+.horse {
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/08/09/Horse-Illustration-2-Graphics-4901451-1.jpg);
+}
+
+.fish {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/453/219/non_2x/cute-blue-fish-free-vector.jpg);
+}
+
+.selector- input:active+.match {
+  opacity: 1;
+}
+
+.selector- input:checked+.match {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+}
+
+.match {
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 100px;
+  height: 70px;
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+
+}
+
+.match:hover {
+  -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+  -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+  filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
