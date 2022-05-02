@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.jas"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 </head>
 <body style= "background-image: url('https://i.ibb.co/sJ9pjzt/Dark-Green-Modern-Gradient-Wave-Linktree-Background-2.png');
             background-repeat: no-repeat;
@@ -23,9 +24,9 @@
     <h2 class="header2"> Please fill out the following information </h2>
     <form action="/time-space.html" target="_self" style="margin: auto; width:220px"> 
         <label class="formtext" for="name">Name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fullname" name="fullname" required><br>
         <label class="formtext" for="dob">Date of Birth:</label><br>
-            <input type="date" id="dob" name="dob">
+            <input type="date" id="dob" name="dob" required>
         <input class="formtext" type="submit" value= "Next">
       </form>
     <form method="get" action="#contact">
