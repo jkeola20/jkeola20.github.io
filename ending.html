@@ -41,7 +41,7 @@
                         <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Name" required>
                     </div>
                     <div>
-                        <input type="email" class="form-control rounded border-white mb-3 form-input" placeholder="Email" required>
+                        <input type="tel" class="form-control rounded border-white mb-3 form-input" placeholder="Telephone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     </div>
                     <div>
                         <input type="reason" class="form-control rounded border-white mb-3 form-input" placeholder="Reason" required>
@@ -49,11 +49,17 @@
                     <div>
                         <textarea id="message" class="form-control rounded border-white mb-3 form-text-area" rows="5" cols="30" placeholder="Message" required></textarea>
                     </div>
-                    <label for="drs">Choose a provider</label>
+                    <label for="drs">Choose a provider:</label>
                     <select name="drs">
                       <option value="Jones">Dr. Jones</option>
                       <option value="Smith">Dr. Smith</option>
                       <option value="Littler">Dr. Little</option>
+                    </select>
+                    <label for="drs">Choose a reason:</label>
+                    <select name="drs">
+                      <option value="Jones">Prescription Refill</option>
+                      <option value="Smith">Content Questions</option>
+                      <option value="Littler">Treatment Plan Questions</option>
                     </select>
                     <div class="submit-button-wrapper">
                         <input type="submit" value="Send">
