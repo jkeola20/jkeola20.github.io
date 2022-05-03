@@ -1,17 +1,9 @@
-//<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-/*
-const next = function() {
-    let current = 0;
-    for (let i = 1; i <= 5; i++) {
-        if ($("#" + `q${i}`).style.display == 'block') {
-            current = i;
-        }
-    }
-    if (!current) {
-        $("#welcome_message").style.display = 'block';
-    } else {
-        $("#" + `q${current}`).style.display = 'none';
-    }
-    $("#" + `q${current + 1}`).style.display = 'block';
-}
-*/
+//JS for Help Contact Table
+$(document).ready(function(){
+  $("#Input").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#HelpTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});

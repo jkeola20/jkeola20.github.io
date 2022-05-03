@@ -20,17 +20,45 @@
     width: 50%;
     text-align: center;
 }
-.thankyou{
-    color: #5e17eb;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 100px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-    padding: 20px;
+.header3{
+  color: black;
+  font-family: 'Tenor Sans', serif;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
+.instructions{
+  color: #5e17eb;
+  font-family: 'Tenor Sans', serif;
+  font-size: 25px;
+  font-weight: bolder;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+/* Help button START*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ }
+ li a {
+  display: block;
+  color: black;
+  font-size: 30px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #5e17eb;
+  color: white;
+}
+/* Help button END*/
 .p1{
     color: black;
     font-family: 'Tenor Sans', serif;
@@ -75,6 +103,38 @@
       height: 300px;
       width: 300px;
   }
+/* Help table formatting */
+#Input {
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px;
+}
+#HelpUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  padding: 12px; 
+  text-decoration: none;
+  font-size: 20px;
+  color: black; 
+  display: block; 
+}
+#HelpUL li a:hover:not(.header) {
+  background-color: #ddd;
+}
+/* Thank you page formatting */
+.thankyou{
+  color: #5e17eb;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
 /* Dropdown styling for Contact Providers form */
 
 .dropbtn {
