@@ -17,37 +17,35 @@
             background-attachment: fixed; 
             background-size: cover;"
             class="formtext">
-    <h1 class="header1">idAD Healthcare Solutions</h1>
-        <p class="p1"> Alzheimer's Disease Diagnostics and Monitoring Service </p>
-        <p id="welcome-text"></p>
-<div id="new-user-input">   
+<h1 class="header1"> idAD Healthcare Solutions </h1>
+    <p class="p1"> Alzheimer's Disease Diagnostics and Monitoring Service </p>
+<!--Patient Information-->
         <h2 class="header2"> Please enter the following information </h2>
+    <form action="/instructions.html" target="_self" style="margin: auto; width:220px"> 
         <label class="formtext" for="name">Name:</label><br>
-            <input type="text" id="name-input" name="fullname" required><br>
+            <input type="text" id="fullname" name="fullname" required><br>
         <label class="formtext" for="dob">Date of Birth:</label><br>
-            <input type="date" id="dob-input" name="dob" required>
+            <input type="date" id="dob" name="dob" required>
         <input class="formtext" type="submit" value= "Next">
-      </form>
-</div>
-    <form method="get" action="#contact">
-            <div class="container">
-              <div class="center">
-                <button>Contact Us</button>
-              </div>
-            </div>
     </form>
-        <div style="height:900px;"></div>
+<!--Contact idAD Button-->
+<form method="get" action="#contact">
+    <div class="container">
+        <div class="center">
+            <button>Contact Us</button>
+        </div>
+    </div>
+</form>
+<!--Contact Form-->
+    <div style="height:900px;"></div>
         <button id="contact" class="formtext"></button>
-            <h1 class="header1">Contact Us</h1> 
-                <h2 class="header2">
-                    Send Feedback to idAD
-                </h2>
+            <h1 class="header1"> Contact Us </h1> 
+                <h2 class="header2"> Send Feedback to idAD </h2>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">       
-         <div>
-            <div class="contact-form-wrapper d-flex justify-content-center">
-                <form action="#" class="contact-form">
-                    <p class="description">Please feel free to submit any comments, questions, or suggestions.
-                    </p>
+    <div>
+        <div class="contact-form-wrapper d-flex justify-content-center">
+            <form action="#" class="contact-form">
+                <p class="description"> Please feel free to submit any comments, questions, or suggestions. </p>
                     <div>
                         <input type="text" class="form-control rounded border-white mb-3 form-input" id="name" placeholder="Name" required>
                     </div>
@@ -65,5 +63,6 @@
                   </div>
         </p>
         <div style="height:900px;"></div>
-   <script src="src/scripts.js"></script>
+<!--JS script-->
+<script src="src/scripts.js"></script>
 </body>
