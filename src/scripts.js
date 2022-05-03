@@ -5,10 +5,10 @@
 $('#submit-input').click(function () {
   // Set profile info from inputs
   var userName = $('#name-input').val();
-  var phone = $('#phone-input').val();
+  var phone = $('#dob-input').val();
   // Create profile cookie
   Cookies.set('userName', userName);
-  Cookies.set('phone', phone);
+  Cookies.set('DOB', DOB);
   // Reload page so that cookie can take effect
   location.reload();
 });
