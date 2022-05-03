@@ -79,6 +79,7 @@ li a:hover {
     border-radius: 150px;
     font-size: 20px;
     font-family: 'Tenor Sans', serif;
+    display: none;
  }
 .contact-form{
     color: black;

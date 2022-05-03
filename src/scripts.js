@@ -1,4 +1,3 @@
-
 //JS for Help Contact Table
 $(document).ready(function(){
   $("#Input").on("keyup", function() {
