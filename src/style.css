@@ -43,7 +43,7 @@
 }
 .formtext{
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Tenor Sans', serif;
 }
 /*Center formatting for buttons*/
@@ -55,6 +55,7 @@
   font-size: 20px;
   margin: 0;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);

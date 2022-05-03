@@ -16,18 +16,28 @@
             background-repeat: no-repeat;
             background-attachment: fixed; 
             background-size: cover;"
-            class="formtext">>
-    <h1 class="header1">Thank you!</h1>
-        <h2 class="header2">Your information will now be sent to your physician.</h2>
-<!--Contact Physician Button-->
+            class="formtext">
+<h1 class="header1">Thank you!</h1>
+    <h2 class="header2">Your information will now be sent to your neurologist.</h2>
+        <h3 class="header3"> Click "Next Steps" to get more information about the games.</h2> 
+        <h3 class="header3"> Click "Contact Provider" to reach your provider.</h2> 
+<!--Next Steps Button-->
+<a href="#next-steps">
+    <div class="container">
+        <div class="center">
+            <button>Next Steps</button>
+        </div>
+    </div>
+</a>  
+<!--Contact Provider Button-->
 <form method="get" action="#contact">
     <div class="container">
     <div class="center">
     <button>Contact Your Provider</button>
         </div>
         </div>
-    </form>   
-<!--Contact Physician Form-->    
+    </form>    
+<!--Contact Provider Form-->    
  <div style="height:900px;"></div>
         <button id="contact" class="formtext"></button>
             <h1 class="header1">Contact Provider</h1> 
@@ -69,5 +79,19 @@
                   </div>
         </p>
         <div style="height:900px;"></div>
+<!--Next Steps box-->   
+<a id="resources">
+    <h1 class="header1"> Next Steps </h1> 
+        <div class="container">
+            <div class="center">    
+                 <ul style="list-style-type:disc;">
+                    <li> <a href="/interpretation.html" style="font-size: 25px;"> How to interpret scores</a></li> 
+                    <li> <a href="https://www.alz.org" style="font-size: 25px;"> Alzheimer's Association </a></li> 
+                    <li> <a href="https://www.medicare.gov/talk-to-someone" style="font-size: 25px;"> Medicare Enrollment Helpline </a></li> 
+                </ul>
+            </div>
+        </div>
+        </a>
+<!--JS script-->  
     <script src="src/scripts.js"></script>
 </body>

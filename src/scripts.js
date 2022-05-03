@@ -16,3 +16,26 @@ $(document).ready(function(){
     });
   });
 });
+//Algorithim for interpreting scores from the games
+$("#calc-alz").click(function() {
+//Thresholds for Alzheimer's Disease based on MoCA grading scale
+  var dScore = 16;
+//Thresholds for Alzheimer's Disease based on research (disease runs its course in a maximum of 20 years)
+  var dYears = 20;
+  var score = $("#score").val();
+  var years = $("#years").val();
+  var medication = $("#medication").is(":checked");
+  
+  if (score < dScore && years < dYears) {
+      alert("CALL NEUROLOGIST - Potential for Cognitive Impairment");
+  } else if (score < dScore) {
+      if (medication) {
+          alert("CALL NEUROLOGIST - Potential for Cognitive Impairment");
+      } else {
+          alert("MONITOR - Visit primary care physician regularly");
+      }
+  } else {
+      alert("MONITOR - Visit primary care physician regularly");
+  }
+  
+});
