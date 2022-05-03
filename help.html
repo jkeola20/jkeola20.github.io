@@ -18,36 +18,47 @@
             background-size: cover;"
             class="formtext">
 <!--Help box--> 
-    <div class="center">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
-    <table id="myTable">
-        <tr class="header">
-            <th style="width:60%;">Name</th>
-            <th style="width:40%;">Country</th>
+<div class="center">
+    <h2 class="header2">Specialists Information </h2>
+        <h3 class="header3">Search for people to contact in case of website or health-related issues</h3>  
+            <input class="form-control" id="Input" type="text" placeholder="Search...">
+    <br>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Phone Number</th>
+          <th>Area of Expertise</th>
+        </tr>
+      </thead>
+      <tbody id="HelpTable">
+        <tr>
+          <td>John Doe</td>
+          <td>Technology Specialist</td>
+          <td>000-111-2222</td>
+          <td>IT-related Questions</td>
         </tr>
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Germany</td>
+          <td>Jane Doe</td>
+          <td>Registered Nurse</td>
+          <td>333-444-5555</td>
+          <td>Health-related Questions</td>
         </tr>
         <tr>
-            <td>Berglunds snabbkop</td>
-            <td>Sweden</td>
+          <td>James Doe</td>
+          <td>Insurance Broker</td>
+          <td>600-777-8888</td>
+          <td>Insurance-related Questions</td>
         </tr>
-        <tr>
-            <td>Island Trading</td>
-            <td>UK</td>
-        </tr>
-        <tr>
-            <td>Koniglich Essen</td>
-            <td>Germany</td>
-        </tr>
-            </table>
-    </div>
+      </tbody>
+    </table>
+</div>
 <!--Back button--> 
 <ul>
     <li style="float:right"><a href="/instructions.html"> Back</a></li>
 </ul>
-<h1 class="header1"> Help </h1>
+<h1 class="header1"> Helpful Contacts </h1>
 <!--JS script-->
 <script src="src/scripts.js"></script>
 </body>
