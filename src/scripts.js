@@ -18,9 +18,9 @@ $(document).ready(function(){
 });
 //Algorithim for interpreting scores from the games
 $("#calc-alz").click(function() {
-//Thresholds for Alzheimer's Disease based on MoCA grading scale
+//Threshold for Alzheimer's Disease based on MoCA grading scale
   var dScore = 16;
-//Thresholds for Alzheimer's Disease based on research (disease runs its course in a maximum of 20 years)
+//Threshold for Alzheimer's Disease based on research (disease runs its course in a maximum of 20 years)
   var dYears = 20;
   var score = $("#score").val();
   var years = $("#years").val();
