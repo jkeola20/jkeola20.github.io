@@ -8,6 +8,7 @@ $(document).ready(function() {
         }
         if (!current) {
             $("#welcome_message").show();
+            $("#welcome_button").hide();
         } else {
             $("#" + `q${current}`).hide();
         }
