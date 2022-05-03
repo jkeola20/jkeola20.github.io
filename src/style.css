@@ -20,16 +20,30 @@
     width: 50%;
     text-align: center;
 }
-.thankyou{
-    color: #5e17eb;
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 100px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-    padding: 20px;
+.instructions{
+  color: #5e17eb;
+  font-family: 'Tenor Sans', serif;
+  font-size: 25px;
+  font-weight: bolder;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+ }
+ li a {
+  display: block;
+  color: black;
+  font-size: 30px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #5e17eb;
+  color: white;
 }
 .p1{
     color: black;
@@ -74,6 +88,18 @@
       height: 300px;
       width: 300px;
   }
+/* Thank you page formatting */
+.thankyou{
+  color: #5e17eb;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
 /* Dropdown styling for Contact Providers form */
 
 .dropbtn {
