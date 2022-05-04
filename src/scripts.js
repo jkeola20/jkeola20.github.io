@@ -24,6 +24,7 @@ $("#calc-alz").click(function() {
   var dYears = 20;
   var score = $("#score").val();
   var years = $("#years").val();
+  //Threshold for Alzheimer's Disease based on MoCA grading scale
   var medication = $("#medication").is(":checked");
   
   if (score < dScore && years < dYears) {
