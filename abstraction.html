@@ -17,9 +17,12 @@
             background-size: cover;"
             class="formtext">
     <h1 class="header1"> What's The Relationship? </h1>
-    <h2 class="header2"> Please answer the following question </h2>
+    <h2 class="header2" id="prompt" style="display: none;"> Please answer the following question </h2>
+<!--Welcome page-->
+<h2 class="header2" id="welcome_message"> Click "Next" when you are ready! </h2> 
+<input type="submit" id="welcome_button" value= "Next" class="center" style="font-size: 30px;">
 <!--Fruit Concept-->
-<form action="/abstraction.html" target="_self" style="margin: auto; width:220px"> 
+<form id="q1" target="_self" style="margin: auto; width:220px; display: none;"> 
   <label for="fruit">Which of the following is a FRUIT? (Select all that apply) </label><br>
     <input type="checkbox" name="fruit" value="Table" id="Table">
   <label for="Table">Table</label><br>
@@ -34,7 +37,7 @@
     <input type="submit" value= "Next">
       </form>
 <!--Transportation Concept-->
-<form action="/abstraction.html" target="_self" style="margin: auto; width:220px"> 
+<form id="q2" target="_self" style="margin: auto; width:220px; display: none;"> 
   <label for="transportation">Which of the following is a form of TRANSPORTATION? (Select all that apply) </label><br>
     <input type="checkbox" name="transportation" value="Chair" id="Chair">
   <label for="Chair">Chair</label><br>
@@ -49,7 +52,7 @@
     <input type="submit" value= "Next">
       </form>
 <!--Body Part Concept-->
-  <form action="/ending.html" target="_self" style="margin: auto; width:220px"> 
+  <form id="q3" action="/ending.html" target="_self" style="margin: auto; width:220px; display: none;"> 
   <label for="transportation">Which of the following is a Body Part? (Select all that apply) </label><br>
     <input type="checkbox" name="bodypart" value="Ear" id="Ear">
   <label for="Ear">Ear</label><br>
@@ -64,5 +67,5 @@
     <input type="submit" value= "Next">
       </form>
 <!--JS script-->
-<script src="src/scripts.js"></script>
+<script src="src/abstraction-scripts.js"></script>
 </body>

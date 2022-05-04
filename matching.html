@@ -17,9 +17,12 @@
             background-size: cover;"
             class="formtext">
 <h1 class="header1"> Name the Animals </h1>
-    <h2 class="header2"> Match the animal with its name </h2>
+    <h2 class="header2" style="display:none"> Match the animal with its name </h2>
+<!--Welcome page-->
+<h2 class="header2" id="welcome_message"> Click "Next" when you are ready! </h2> 
+<input type="submit" id="welcome_button" value= "Next" class="center" style="font-size: 30px;">
 <!--Lion Matching-->
-<form action="/matching.html" target="_self" style="margin: auto; width:220px"> 
+<form id="q1" target="_self" style="margin: auto; width:220px; display:none"> 
     <label for="lion" class="p1">Which of the following is a LION?</label><br>
         <div class="selector-">
             <input id="bird" type="radio" name="animal" value="bird" required />
@@ -35,7 +38,7 @@
         <input type="submit" value= "Next">
 </form>
 <!--Snake Matching-->
-<form action="/matching.html" target="_self" style="margin: auto; width:220px"> 
+<form id="q2" target="_self" style="margin: auto; width:220px; display:none"> 
     <label for="snake" class="p1">Which of the following is a SNAKE?</label><br>
         <div class="selector-">
             <input id="snake" type="radio" name="animal" value="snake" required/>
@@ -52,7 +55,7 @@
         <input type="submit" value= "Next">
 </form>
 <!--Fish Matching-->
-<form action="/abstraction.html" target="_self" style="margin: auto; width:220px"> 
+<form action="/abstraction.html" id="q3" target="_self" style="margin: auto; width:220px; display:none"> 
     <label for="snake" class="p1">Which of the following is a FISH?</label><br>
         <div class="selector-">
             <input id="giraffe" type="radio" name="animal" value="giraffe" required/>
@@ -69,5 +72,5 @@
         <input type="submit" value= "Next">
 </form>
 <!--JS script-->
-<script src="src/scripts.js"></script>
+<script src="src/matching-scripts.js"></script>
 </body>
