@@ -14,4 +14,9 @@ $(document).ready(function() {
         }
         $("#" + `q${current + 1}`).show();
     });
+    $("form").submit(e => e.preventDefault());
+    $("#q5 > :submit").click(function() {
+        window.location.href = '/matching.html';
+        return false;
+    })
 });
