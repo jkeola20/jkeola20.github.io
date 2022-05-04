@@ -9,6 +9,7 @@ $(document).ready(function() {
         if (!current) {
             $("#welcome_message").hide();
             $("#welcome_button").hide();
+            $("#prompt").show();
         } else {
             $("#" + `q${current}`).hide();
         }
