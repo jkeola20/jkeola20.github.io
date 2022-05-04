@@ -1,3 +1,4 @@
+//Matching show/hide function
 $(document).ready(function() {
     $(":submit").click(function() {
         let current = 0;
