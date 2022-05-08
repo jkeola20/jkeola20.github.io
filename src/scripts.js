@@ -1,4 +1,4 @@
-//JS to populate Helpful Contacts Table
+//JS to populate Helpful Contacts Box
 var information = [{'Name': 'John Doe', 'Position': 'Technology Specialist', 'Phone Number': '000-111-2222', 'Area of Expertise': 'Website, Internet connection, Navitgation'},
                     {'Name': 'Jane Doe', 'Position': 'Registered Nurse', 'Phone Number': '333-444-5555', 'Area of Expertise': 'Medications, Appointment scheduling, Health questions'},
                     {'Name': 'James Doe', 'Position': 'Insurance Representative', 'Phone Number': '600-777-8888', 'Area of Expertise': 'Medicare, Medicaid, Billing'},
@@ -18,13 +18,13 @@ $(document).ready(function(){
 });
 //Algorithim for interpreting scores from the games
 $("#calc-alz").click(function() {
-//Threshold for Alzheimer's Disease based on MoCA grading scale
-  var dScore = 11;
+//Threshold for Alzheimer's Disease based on MoCA grading scale (adjusted)
+  var dScore = 6;
 //Threshold for Alzheimer's Disease based on research regarding years (disease runs its course in a maximum of 20 years)
   var dYears = 20;
   var score = $("#score").val();
   var years = $("#years").val();
-  //Prescription medication for memory issues question
+//Prescription medication for memory issues question
   var medication = $("#medication").is(":checked");
   
   if (score < dScore && years < dYears) {

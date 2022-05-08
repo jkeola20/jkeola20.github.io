@@ -115,14 +115,6 @@ li a:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
  }
-.contact-form{
-    color: black;
-    text-align: center;
-}
-  .matchingq{
-      height: 300px;
-      width: 300px;
-  }
 /* Help table formatting */
 #Input {
   width: 100%;
@@ -143,7 +135,7 @@ li a:hover {
 #HelpUL li a:hover:not(.header) {
   background-color: #ddd;
 }
-/* Thank you page formatting */
+/* Thank You page formatting */
 .thankyou{
   color: #5e17eb;
   font-family: 'Tenor Sans', sans-serif;
@@ -156,6 +148,10 @@ li a:hover {
   padding: 20px;
 }
 /* Contact Providers form formatting*/
+.contact-form{
+  color: black;
+  text-align: center;
+}
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -193,6 +189,10 @@ li a:hover {
 }
 
 /*Matching Page formatting*/
+.matchingq{
+  height: 300px;
+  width: 300px;
+}
 .selector- input {
   position: absolute;
   z-index: 999;
