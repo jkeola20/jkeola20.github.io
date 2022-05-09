@@ -1,7 +1,7 @@
 //JS to populate Helpful Contacts Box
-var information = [{'Name': 'John Doe', 'Position': 'Technology Specialist', 'Phone Number': '000-111-2222', 'Area of Expertise': 'Website, Internet connection, Navitgation'},
-                    {'Name': 'Jane Doe', 'Position': 'Registered Nurse', 'Phone Number': '333-444-5555', 'Area of Expertise': 'Medications, Appointment scheduling, Health questions'},
-                    {'Name': 'James Doe', 'Position': 'Insurance Representative', 'Phone Number': '600-777-8888', 'Area of Expertise': 'Medicare, Medicaid, Billing'},
+var information = [{'Name': 'John Doe', 'Position': 'Technology Specialist', 'Phone Number': '000-111-2222', 'Area of Expertise': 'Website, Internet'},
+                    {'Name': 'Jane Doe', 'Position': 'Registered Nurse', 'Phone Number': '333-444-5555', 'Area of Expertise': 'Medications, Appointments'},
+                    {'Name': 'James Doe', 'Position': 'Insurance Representative', 'Phone Number': '600-777-8888', 'Area of Expertise': 'Medicare, Billing'},
                     ];
 information.forEach(function (item, index) {
   $('#data-table tr:last').after('<tr><td>' + item['Name'] + '</td><td>' + item['Position'] + '</td><td>' + item['Phone Number'] + '</td><td>' + item['Area of Expertise'] + '</td></tr>');

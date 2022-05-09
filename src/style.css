@@ -24,7 +24,7 @@
 .header3{
   color: black;
   font-family: 'Tenor Sans', serif;
-  font-size: 20px;
+  font-size: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,16 +34,26 @@
 .p1{
   color: black;
   font-family: 'Tenor Sans', serif;
-  font-size: 20px;
+  font-size: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
 }
+.p2{
+  color: black;
+  font-family: 'Tenor Sans', serif;
+  font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  text-align: center;
+}
 .formtext{
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Tenor Sans', serif;
 }
 /*Center formatting for buttons*/
@@ -52,7 +62,7 @@
   position: relative;
 }
 .center {
-  font-size: 20px;
+  font-size: 30px;
   margin: 0;
   position: absolute;
   text-align: center;
@@ -65,7 +75,7 @@
 .games{
   color: #5e17eb;
   font-family: 'Tenor Sans', serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   display: block;
   margin-left: auto;
@@ -76,7 +86,7 @@
 .instructions{
   color: black;
   font-family: 'Tenor Sans', serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bolder;
   display: block;
   margin-left: auto;
@@ -118,7 +128,7 @@ li a:hover {
 /* Help table formatting */
 #Input {
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   padding: 12px 20px 12px 40px; 
   border: 1px solid #ddd; 
   margin-bottom: 12px;
