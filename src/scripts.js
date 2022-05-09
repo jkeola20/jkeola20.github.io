@@ -28,15 +28,15 @@ $("#calc-alz").click(function() {
   var medication = $("#medication").is(":checked");
   
   if (score < dScore && years < dYears) {
-      alert("CALL NEUROLOGIST - Potential for Cognitive Impairment");
+      alert("CALL NEUROLOGIST");
   } else if (score < dScore) {
       if (medication) {
-          alert("CALL NEUROLOGIST - Potential for Cognitive Impairment");
+          alert("CALL NEUROLOGIST");
       } else {
-          alert("MONITOR - Visit primary care physician regularly");
+          alert("MONITOR");
       }
   } else {
-      alert("MONITOR - Visit primary care physician regularly");
+      alert("MONITOR");
   }
   
 });
