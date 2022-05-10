@@ -1,4 +1,4 @@
-//Matching show/hide function
+//Matching show/hide function, identical to the time-space script.
 $(document).ready(function() {
     $(":submit").click(function() {
         let current = 0;
